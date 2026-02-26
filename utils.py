@@ -18,3 +18,5 @@ def is_it_prime(n):
             return False
     return True
 
+def clowining():
+    print("you have been clowned hehe")
