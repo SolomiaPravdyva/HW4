@@ -18,3 +18,5 @@ def is_it_prime(n):
             return False
     return True
 
+def is_it_even(n):
+    return n%2==0
