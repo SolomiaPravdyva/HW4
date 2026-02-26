@@ -20,3 +20,6 @@ def is_it_prime(n):
 
 def clowining():
     print("you have been clowned hehe")
+    
+def numbers(a):
+    return [i*i for i in range(a)]
