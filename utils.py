@@ -23,6 +23,15 @@ def clowining():
     
 def numbers(a):
     return [i*i for i in range(a)]
+def is_it_even(n):
+    return n%2==0
+
+def is_power_of_five(n):
+    if n<1:
+        return False
+    while n%5==0:
+        n=n//5
+    return n==1
 def n_of_fibonacci(n, k1=0, k2=1, t=2):
     if n == k1:
         return 1
