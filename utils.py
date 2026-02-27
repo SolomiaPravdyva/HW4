@@ -27,3 +27,13 @@ def is_power_of_five(n):
     while n%5==0:
         n=n//5
     return n==1
+def n_of_fibonacci(n, k1=0, k2=1, t=2):
+    if n == k1:
+        return 1
+    else:
+        if n == k2:
+            return t
+        else:
+            return n_of_fibonacci(n, k2, k1+k2, t+1)
+
+
