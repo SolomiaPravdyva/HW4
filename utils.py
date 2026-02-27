@@ -18,3 +18,13 @@ def is_it_prime(n):
             return False
     return True
 
+def n_of_fibonacci(n, k1=0, k2=1, t=2):
+    if n == k1:
+        return 1
+    else:
+        if n == k2:
+            return t
+        else:
+            return n_of_fibonacci(n, k2, k1+k2, t+1)
+
+
