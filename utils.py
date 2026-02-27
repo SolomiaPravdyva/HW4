@@ -18,6 +18,11 @@ def is_it_prime(n):
             return False
     return True
 
+def clowining():
+    print("you have been clowned hehe")
+    
+def numbers(a):
+    return [i*i for i in range(a)]
 def is_it_even(n):
     return n%2==0
 
